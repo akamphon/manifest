@@ -40,8 +40,9 @@
   <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="aqua2" />
   <project path="vendor/lge/bullhead" name="vendor_lge_bullhead" remote="aqua2" />
 
-  <!-- crosshatch -->
+  <!-- crosshatch & blueline -->
   <project path="device/google/crosshatch" name="device_google_crosshatch" groups="pdk" remote="aqua2" />
+  <project path="device/google/blueline" name="device_google_blueline" groups="pdk" remote="aqua2" />
   <project path="device/google/crosshatch-sepolicy" name="device_google_crosshatch-sepolicy" groups="pdk" remote="aqua2" />
   <project path="kernel/google/bluecross" name="kernel_google_bluecross" groups="pdk" remote="aqua2" />
 
