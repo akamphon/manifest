@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gitlab"
+           revision="a9"
+           fetch="https://gitlab.com/AquariOS" />
+  <remote  name="aqua2"
+           revision="refs/heads/a9"
+           fetch="https://github.com/Aqua-devices" />
+
+  <!-- angler -->
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="aqua2" />
+  <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="aqua2" />
+  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="aqua2" />
+
+  <!-- bullhead -->
+  <project path="device/lge/bullhead" name="device_lge_bullhead" remote="aqua2" />
+  <project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="aqua2" />
+  <project path="vendor/lge/bullhead" name="vendor_lge_bullhead" remote="aqua2" />
+
+  <!-- crosshatch & blueline -->
+  <project path="device/google/crosshatch" name="device_google_crosshatch" groups="pdk" remote="aqua2" />
+  <project path="device/google/blueline" name="device_google_blueline" groups="pdk" remote="aqua2" />
+  <project path="device/google/crosshatch-sepolicy" name="device_google_crosshatch-sepolicy" groups="pdk" remote="aqua2" />
+  <project path="kernel/google/bluecross" name="kernel_google_bluecross" groups="pdk" remote="aqua2" />
+
+  <!-- taimen & walleye -->
+  <project path="device/google/taimen" name="device_google_taimen" remote="aqua2" />
+  <project path="device/google/wahoo" name="device_google_wahoo" remote="aqua2" />
+  <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="aqua2" />
+  <project path="device/google/walleye" name="device_google_walleye" remote="aqua2" />
+
+  <!-- blobs & gapps -->
+  <project path="vendor/google" name="proprietary_vendor_google" groups="pdk" remote="aqua2" />
+  <project path="vendor/pixelgapps" name="vendor_pixelgapps" clone-depth="1" remote="gitlab" />
+
+</manifest>
