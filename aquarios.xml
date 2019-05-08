@@ -33,7 +33,7 @@
 
   <!-- Vendor Repos -->
   <project path="vendor/assets" name="vendor_assets" remote="aqua" />
-  <project path="vendor/pixelgapps" name="vendor_pixelgapps" clone-depth="1" remote="gitlab" />
+  <project path="vendor/pixelgapps" name="vendor_pixelgapps" clone-depth="1" remote="gitlab-caf" />
   <project path="vendor/support" name="vendor_support" remote="aqua" />
 
 </manifest>
