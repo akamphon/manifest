@@ -53,6 +53,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aqua" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="gitlab" revision="p9x" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="aqua" />

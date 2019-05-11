@@ -3,7 +3,7 @@
 
   <remote  name="gitlab"
            revision="a9"
-           fetch="https://gitlab.com/AquariOS" />
+           fetch="https://gitlab.com/" />
   <remote  name="aqua2"
            revision="refs/heads/a9"
            fetch="https://github.com/Aqua-devices" />
@@ -32,6 +32,6 @@
 
   <!-- blobs & gapps -->
   <project path="vendor/google" name="proprietary_vendor_google" groups="pdk" remote="aqua2" />
-  <project path="vendor/pixelgapps" name="vendor_pixelgapps" clone-depth="1" remote="gitlab" />
+  <project path="vendor/pixelgapps" name="AquariOS/vendor_pixelgapps" clone-depth="1" remote="gitlab" />
 
 </manifest>
