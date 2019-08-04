@@ -51,6 +51,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="aqua" />
   <project path="packages/apps/WeatherClient" name="packages_apps_WeatherClient" groups="pdk-cw-fs,pdk-fs" remote="aqua" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aqua" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="aqua" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="gitlab" revision="p9x" />
