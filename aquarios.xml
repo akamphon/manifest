@@ -71,4 +71,7 @@
   <!-- Dummy repo for caf -->
   <project path="vendor/interfaces" name="vendor_interfaces" remote="aqua" revision="a9-caf" />
 
+  <!-- Extra repos -->
+  <project path="Templates_and_Scripts" name="Templates_and_Scripts" remote="aqua" revision="a9" />
+
 </manifest>
