@@ -96,6 +96,7 @@ cd ~/aquarios
 <br />
 
 9) Now you're going to initialize the repo:
+IMPORTANT: IF YOU ARE BUILDING FOR A GOOGLE DEVICE, USE BRANCH a9. IF NOT, USE a9-caf!
 ```bash
 repo init -u https://github.com/aquarios/manifest -b a9
 ```
@@ -122,11 +123,27 @@ Make sure you follow BOTH sections in the guide(s) in above link, as the second 
 
 12) Last step. Time to get the source, this part will take a while and will vary depending on your PC and internet speed:
 ```bash
-repo sync
+repo sync --current-branch --no-clone-bundle --no-tags
 ```
 
 Build environment setup done!
 
+## Compiling ##
+
+13) There are many different combinations of commands you can use to compile AOSP for your device. Below are the team's most commonly used methods: 
+
+Non-Google device example:
+
+```bash
+lunch enchilada && mka bacon
+```
+<br />
+
+Google device example:
+
+```bash
+breakfast crosshatch && mka bacon
+```
 <br />
 
 ## Permissions ##
