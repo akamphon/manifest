@@ -173,7 +173,6 @@
   <!-- Vendor Repos -->
   <!-- AquariOS Vendors -->
   <project path="vendor/aquarios" name="vendor_aquarios" remote="aqua-caf" />
-  <project path="vendor/interfaces" name="vendor_interfaces" remote="aqua" revision="a9-caf" />
 
   <!-- CAF Vendors -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aqua-caf" />
