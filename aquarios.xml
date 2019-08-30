@@ -4,6 +4,10 @@
   <remote  name="aqua"
            revision="refs/heads/a9"
            fetch="https://github.com/AquariOS" />
+  <remote  name="github"
+           fetch="https://github.com/" />
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
 
   <project path="manifest" name="manifest" remote="aqua" />
 
@@ -73,5 +77,5 @@
 
   <!-- Extra repos -->
   <project path="Templates_and_Scripts" name="Templates_and_Scripts" remote="aqua" revision="a9" />
-
+  <project path="vendor/pixelgapps" name="AquariOS/vendor_pixelgapps" clone-depth="1" remote="gitlab" revision="a9" />
 </manifest>

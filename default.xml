@@ -727,5 +727,4 @@
   <!-- Include with manifest -->
   <include name="remove.xml" />
   <include name="aquarios.xml" />
-  <include name="devices.xml" />
 </manifest>
