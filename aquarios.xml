@@ -73,7 +73,7 @@
   <project path="vendor/support" name="vendor_support" remote="aqua" />
 
   <!-- Dummy repo for caf -->
-  <project path="vendor/interfaces" name="vendor_interfaces" remote="aqua" revision="a9-caf" />
+  <project path="hardware/aquarios/interfaces" name="hardware_aquarios_interfaces" remote="aqua" revision="a9-caf" />
 
   <!-- Extra repos -->
   <project path="Templates_and_Scripts" name="Templates_and_Scripts" remote="aqua" revision="a9" />
