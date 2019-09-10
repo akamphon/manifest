@@ -17,10 +17,7 @@
            sync-j="4" />
 
 <!-- AQUARIOS ENTRIES -->
-  <project path="manifest" name="manifest" remote="aqua" />
-
-<!-- AOSP -->
-  <project path="build/make" name="platform/build" groups="pdk" >
+  <project path="build/make" name="build_make" remote="aqua" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -29,15 +26,19 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
-  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
+  <project path="build/soong" name="build_soong" remote="aqua" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <project path="manifest" name="manifest" remote="aqua" />
+
+<!-- AOSP -->
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
+  <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" groups="developers,pdk" />
