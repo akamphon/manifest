@@ -1,5 +1,5 @@
 # AquariOS #
-[<center><img src="http://i67.tinypic.com/10zzl2h.png" height="100%" width="100%;"/></center>](https://github.com/aquarios)
+[<center><img src="https://i.imgur.com/x6lAi75.png" height="100%" width="100%;"/></center>](https://github.com/aquarios)
 
 ## Setting up your build environment ##
 **Please read entire guide carefully and attempt these steps on your own before asking for help.  To setup your build environment and sync AquariOS, please follow the guide below.
