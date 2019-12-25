@@ -63,7 +63,7 @@
   <project path="vendor/support" name="vendor_support" remote="aqua" />
 
   <!-- Dummy repo to build FB stuff for ng branch -->
-  <project path="hardware/aquarios/interfaces" name="hardware_aquarios_interfaces" remote="aqua" revision="x-ng" />
+  <project path="hardware/aquarios/interfaces" name="hardware_aquarios_interfaces" remote="aqua" />
 
 <!-- AOSP -->
   <project path="art" name="platform/art" groups="pdk" />
