@@ -67,6 +67,7 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="aqua" />
 
   <!-- Vendor -->
+  <project path="vendor/assets" name="vendor_assets" remote="aqua"  revision="x" />
   <project path="vendor/aquarios" name="vendor_aquarios" remote="aqua" />
   <project path="vendor/support" name="vendor_support" remote="aqua" revision="x" />
 
