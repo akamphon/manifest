@@ -3,15 +3,21 @@
   <remote	name="aqua"
 			revision="refs/heads/x"
 			fetch="https://github.com/AquariOS" />
+
   <remote  	name="aqua2"
+			revision="refs/heads/x"
 			fetch="https://github.com/Aqua-Devices" />
+
   <remote  	name="github"
 			fetch="https://github.com/" />
+
   <remote  	name="gitlab"
 			fetch="https://gitlab.com/" />
+
   <remote  	name="aosp"
 			fetch="https://android.googlesource.com"
 			review="https://android-review.googlesource.com/" />
+
   <default 	revision="refs/tags/android-10.0.0_r18"
 			remote="aosp"
 			sync-c="true"
