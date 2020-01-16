@@ -54,6 +54,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="aqua"  revision="x" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aqua" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aqua" />
+  <project path="packages/apps/SmartActions" name="packages_apps_SmartActions" remote="aqua" revision="x" />
 
   <!-- Sepolicy -->
   <project path="device/aquarios/sepolicy" name="device_aquarios_sepolicy" remote="aqua" />
