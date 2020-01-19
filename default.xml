@@ -43,6 +43,7 @@
   <project path="manifest" name="manifest" remote="aqua" />
 
   <!-- External -->
+  <project path="external/google" name="external_google" remote="aqua" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="aqua" />
 
   <!-- Frameworks -->
