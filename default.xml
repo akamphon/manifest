@@ -50,10 +50,12 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aqua" />
   <project path="packages/apps/CoralReef" name="CoralReef" remote="aqua"  revision="x" />
+  <project path="packages/apps/HwKeyHandler" name="packages_apps_HwKeyHandler" remote="aqua" revision="x" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aqua"  revision="x" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="aqua"  revision="x" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aqua" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aqua" />
+  <project path="packages/apps/SmartActions" name="packages_apps_SmartActions" remote="aqua" revision="x" />
 
   <!-- Sepolicy -->
   <project path="device/aquarios/sepolicy" name="device_aquarios_sepolicy" remote="aqua" />
