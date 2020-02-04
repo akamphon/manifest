@@ -14,11 +14,12 @@
   <remote  	name="gitlab"
 			fetch="https://gitlab.com/" />
 
-  <remote  	name="aosp"
-			fetch="https://android.googlesource.com"
-			review="https://android-review.googlesource.com/" />
+  <remote	name="aosp"
+			fetch="https://android.googlesource.com/"
+			review="https://android-review.googlesource.com/" 
+			revision="refs/tags/android-10.0.0_r27" />
 
-  <default 	revision="refs/tags/android-10.0.0_r23"
+  <default	revision="x"
 			remote="aosp"
 			sync-c="true"
 			sync-f="true"
