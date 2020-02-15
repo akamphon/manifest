@@ -38,6 +38,7 @@
   <project path="bionic" name="bionic" groups="pdk" remote="aqua" />
   <project path="manifest" name="manifest" remote="aqua" />
   <project path="external/google" name="external_google" groups="pdk-cw-fs,pdk-fs" remote="aqua" revision="x" />
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="aqua" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aqua" />
@@ -48,8 +49,9 @@
 
   <!-- Hardware -->
   <project path="hardware/aquarios/interfaces" name="hardware_aquarios_interfaces" remote="aqua" />
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="aqua" />
+
   <!-- Packages -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aqua" />
   <project path="packages/apps/CoralReef" name="CoralReef" remote="aqua"  revision="x" />
   <project path="packages/apps/HwKeyHandler" name="packages_apps_HwKeyHandler" remote="aqua" revision="x" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aqua"  revision="x" />
@@ -64,7 +66,6 @@
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" remote="aqua" revision="x-ng-legacy-um" />
 
   <!-- System -->
-  <project path="system/bt" name="system_bt" remote="aqua" />
   <project path="system/core" name="system_core" groups="pdk" remote="aqua" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aqua" />
 
@@ -73,31 +74,9 @@
   <project path="vendor/aquarios" name="vendor_aquarios" remote="aqua" />
   <project path="vendor/support" name="vendor_support" remote="aqua" revision="x" />
 
-  <!-- bt -->
-  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="aqua" />
-
-  <!-- Wlan -->
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="aqua" />
-
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aqua"/>
-  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" groups="pdk-qcom" remote="aqua"/>
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="aqua"/>
-  <project path="hardware/qcom/data/ipacfg-mgr" name="hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="aqua"/>
-  <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aqua"/>
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="aqua"/>
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="aqua"/>
-  <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aqua"/>
-
   <project path="art" name="art" groups="pdk" remote="aqua"/>
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aqua"/>
-  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="aqua"/>
-  <project path="external/json-c" name="external_json-c" remote="aqua"/>
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="aqua"/>
-  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="aqua"/>
-  <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" groups="pdk" remote="aqua"/>
-  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="aqua"/>
-  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="aqua"/>
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="aqua"/>
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="aqua"/>
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="aqua"/>
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="aqua"/>
@@ -509,6 +488,7 @@
   <project path="hardware/google/pixel-sepolicy" name="platform/hardware/google/pixel-sepolicy" groups="generic_fs,pixel" remote="aosp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp" />
   <project path="hardware/nxp/secure_element" name="platform/hardware/nxp/secure_element" groups="pdk" remote="aosp" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994,pdk-qcom" remote="aosp" />
   <project path="hardware/qcom/msm8996" name="platform/hardware/qcom/msm8996" groups="qcom_msm8996,pdk-qcom" remote="aosp" />
@@ -537,6 +517,7 @@
   <project path="hardware/qcom/sm8150/media" name="platform/hardware/qcom/sm8150/media" groups="qcom_sm8150" remote="aosp" />
   <project path="hardware/qcom/sm8150/thermal" name="platform/hardware/qcom/sm8150/thermal" groups="qcom_sm8150" remote="aosp" />
   <project path="hardware/qcom/sm8150/vr" name="platform/hardware/qcom/sm8150/vr" groups="qcom_sm8150" remote="aosp" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" remote="aosp" />
   <project path="hardware/ti/am57x" name="platform/hardware/ti/am57x" groups="pdk" remote="aosp" />
   <project path="hardware/st/nfc" name="platform/hardware/st/nfc" groups="pdk" remote="aosp" />
   <project path="hardware/st/secure_element" name="platform/hardware/st/secure_element" groups="pdk" remote="aosp" />
